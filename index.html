@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ambika Aggarwal - Art Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link href="/css/index.css" rel="stylesheet" />
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <!-- <style>
+      .swiper {
+        width: 240px;
+        height: 320px;
+      }
+
+      .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+      }
+
+      .swiper-slide:nth-child(1n) {
+        background-color: rgb(206, 17, 17);
+      }
+
+      .swiper-slide:nth-child(2n) {
+        background-color: rgb(0, 140, 255);
+      }
+
+      .swiper-slide:nth-child(3n) {
+        background-color: rgb(10, 184, 111);
+      }
+
+      .swiper-slide:nth-child(4n) {
+        background-color: rgb(211, 122, 7);
+      }
+
+      .swiper-slide:nth-child(5n) {
+        background-color: rgb(118, 163, 12);
+      }
+
+      .swiper-slide:nth-child(6n) {
+        background-color: rgb(180, 10, 47);
+      }
+
+      .swiper-slide:nth-child(7n) {
+        background-color: rgb(35, 99, 19);
+      }
+
+      .swiper-slide:nth-child(8n) {
+        background-color: rgb(0, 68, 255);
+      }
+
+      .swiper-slide:nth-child(9n) {
+        background-color: rgb(218, 12, 218);
+      }
+
+      .swiper-slide:nth-child(10n) {
+        background-color: rgb(54, 94, 77);
+      }
+    </style> -->
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">AMBIKA</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/Gallery.html">Gallery</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li> -->
+          </ul>
+          <a
+            href="https://instagram.com/ambika_aggarwal98?igshid=OGQ5ZDc2ODk2ZA=="
+            title="instagram"
+            style="color: black"
+          >
+            <ion-icon name="logo-instagram" class="instagram"></ion-icon
+          ></a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <p class="heading">
+        Exploring the world's beauty through strokes of creativity, one canvas
+        at a time.
+      </p>
+      <p class="sub-heading">
+        Embracing the identity of a wordsmith, I embark on a journey to
+        unravel<br />
+        the world's beauty, each sentence a brushstroke, every paragraph a<br />
+        canvas, weaving tapestries of artistry that celebrate the essence of
+        existence.
+      </p>
+    </div>
+
+    <div class="container text-center mt-5">
+      <p class="heading">SOME OF MY BEST WORK</p>
+    </div>
+
+    <div class="container-fluid text-center mx-auto">
+      <div class="loader df aic jcc">
+        <div>
+          <h1>Loading</h1>
+          <h2 class="loader--text">0%</h2>
+        </div>
+      </div>
+      <div class="demo-wrapper">
+        <section class="demo-text">
+          <div class="wrapper text"></div>
+        </section>
+        <section class="demo-gallery">
+          <ul class="wrapper">
+            <li>
+              <img
+                class="img-fluid"
+                src="/images/a1.jpeg"
+                style="height: 50vh; padding: 1em 1em 1em"
+              />
+            </li>
+            <li>
+              <img
+                src="/images/a2.jpeg"
+                class="img-fluid"
+                style="height: 50vh; padding: 1em 1em 1em"
+              />
+            </li>
+            <li>
+              <img
+                src="/images/a3.jpeg"
+                class="img-fluid"
+                style="height: 50vh; padding: 1em 1em 1em"
+              />
+            </li>
+            <li>
+              <img
+                src="/images/a4.jpeg"
+                class="img-fluid"
+                style="height: 50vh; padding: 1em 1em 1em"
+              />
+            </li>
+            <li>
+              <img
+                src="/images/a5.jpeg"
+                class="img-fluid"
+                style="height: 50vh; padding: 1em 1em 1em"
+              />
+            </li>
+          </ul>
+        </section>
+        <section class="demo-gallery">
+          <ul class="wrapper">
+            <li>
+              <img
+                src="/images/a6.jpeg"
+                class="img-fluid"
+                style="height: 50vh; padding: 1em 1em 1em"
+              />
+            </li>
+            <li>
+              <img
+                src="/images/a7.jpeg"
+                class="img-fluid"
+                style="height: 50vh; padding: 1em 1em 1em"
+              />
+            </li>
+            <li>
+              <img
+                src="/images/a8.jpeg"
+                class="img-fluid"
+                style="height: 50vh; padding: 1em 1em 1em"
+              />
+            </li>
+            <li>
+              <img
+                src="/images/a9.jpeg"
+                style="height: 50vh; padding: 1em 1em 1em"
+                class="img-fluid"
+              />
+            </li>
+          </ul>
+        </section>
+        <!-- <section class="demo-gallery">
+          <ul class="wrapper">
+            <li>
+              <img src="/images/r9.jpeg" width="1240" class="img-fluid" />
+            </li>
+          </ul>
+        </section>
+        <section class="demo-gallery">
+          <ul class="wrapper">
+            <li>
+              <img
+                height="874"
+                src="https://source.unsplash.com/random/1240x874?sig=203"
+                width="1240"
+              />
+            </li>
+            <li>
+              <img
+                height="874"
+                src="https://source.unsplash.com/random/1240x874?sig=163"
+                width="1240"
+              />
+            </li>
+            <li>
+              <img
+                height="874"
+                src="https://source.unsplash.com/random/1240x874?sig=86"
+                width="1240"
+              />
+            </li>
+          </ul>
+        </section> -->
+        <section class="demo-text">
+          <div class="wrapper text"></div>
+        </section>
+      </div>
+    </div>
+
+    <div class="container text-center mx-auto">
+      <a href="/html/Gallery.html">
+        <button class="button">SEE MY WORK</button>
+      </a>
+    </div>
+
+    <div class="container">
+      <hr style="border: 1px solid black" />
+    </div>
+
+    <div class="glass frosted">
+      <div class="container">
+        <p class="sub-heading">Open For Assignments</p>
+        <p class="heading-1">
+          Interested in commissioning me for an art project.<br />
+          I am currently available <br />for assignments worldwide.
+        </p>
+      </div>
+      <div class="container">
+        <button class="button" type="submit">CONTACT ME</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <hr style="border: 1px solid black" />
+    </div>
+
+    <div class="container-fluid">
+      <div class="col">
+        <div class="row">
+          <div class="col-sm-4">
+            <a
+              href="https://instagram.com/ambika_aggarwal98?igshid=OGQ5ZDc2ODk2ZA=="
+              title="instagram"
+              style="color: black"
+            >
+              <ion-icon name="logo-instagram" class="instagram"></ion-icon
+            ></a>
+
+            <ion-icon
+              name="link-outline"
+              id="copyButton"
+              class="instagram mx-2"
+            ></ion-icon>
+          </div>
+          <div class="col-sm-4 text-center">
+            <p>Ambika Aggarwal</p>
+          </div>
+          <div class="col-sm-3"></div>
+          <div class="col-sm-1">
+            <p>2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      gsap.registerPlugin(ScrollTrigger);
+
+      const images = gsap.utils.toArray("img");
+      const loader = document.querySelector(".loader--text");
+      const updateProgress = (instance) =>
+        (loader.textContent = `${Math.round(
+          (instance.progressedCount * 100) / images.length
+        )}%`);
+
+      const showDemo = () => {
+        document.body.style.overflow = "auto";
+        document.scrollingElement.scrollTo(0, 0);
+        gsap.to(document.querySelector(".loader"), { autoAlpha: 0 });
+
+        gsap.utils.toArray("section").forEach((section, index) => {
+          const w = section.querySelector(".wrapper");
+          const [x, xEnd] =
+            index % 2
+              ? ["100%", (w.scrollWidth - section.offsetWidth) * -1]
+              : [w.scrollWidth * -1, 0];
+          gsap.fromTo(
+            w,
+            { x },
+            {
+              x: xEnd,
+              scrollTrigger: {
+                trigger: section,
+                scrub: 0.5,
+              },
+            }
+          );
+        });
+      };
+
+      imagesLoaded(images)
+        .on("progress", updateProgress)
+        .on("always", showDemo);
+    </script>
+    <script>
+      document
+        .getElementById("copyButton")
+        .addEventListener("click", function () {
+          // Get the current page's URL
+          var pageURL = window.location.href;
+
+          // Create a temporary input element to copy the URL to clipboard
+          var tempInput = document.createElement("input");
+          document.body.appendChild(tempInput);
+          tempInput.value = pageURL;
+          tempInput.select();
+          document.execCommand("copy");
+          document.body.removeChild(tempInput);
+
+          alert("Page URL copied to clipboard: " + pageURL);
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY GALLERY</title>
+    <link href="/css/gallery.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link href="/css/index.css" rel="stylesheet" />
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">AMBIKA</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/Gallery.html">Gallery</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li> -->
+          </ul>
+          <a
+            href="https://instagram.com/ambika_aggarwal98?igshid=OGQ5ZDc2ODk2ZA=="
+            title="instagram"
+            style="color: black"
+          >
+            <ion-icon name="logo-instagram" class="instagram"></ion-icon
+          ></a>
+        </div>
+      </div>
+    </nav>
+    <div class="loader df aic jcc">
+      <div>
+        <h1>Loading</h1>
+        <h2 class="loader--text">0%</h2>
+      </div>
+    </div>
+    <article class="gallery">
+      <a class="gallery-link" href="/images/a10.jpeg">
+        <figure class="gallery-image">
+          <img height="1000" src="/images/a10.jpeg" width="1000" />
+          <figcaption>Photo caption</figcaption>
+        </figure>
+      </a>
+      <a class="gallery-link" href="/images//a11.jpeg">
+        <figure class="gallery-image">
+          <img height="1600" src="/images/a11.jpeg" width="1600" />
+          <figcaption>Photo caption</figcaption>
+        </figure>
+      </a>
+      <a class="gallery-link" href="/images/a12.jpeg">
+        <figure class="gallery-image">
+          <img height="1400" src="/images/a12.jpeg" width="1000" />
+          <figcaption>Photo caption</figcaption>
+        </figure>
+      </a>
+      <a class="gallery-link" href="/images/a13.jpeg">
+        <figure class="gallery-image">
+          <img height="1000" src="/images/a13.jpeg" width="1600" />
+          <figcaption>Photo caption</figcaption>
+        </figure>
+      </a>
+      <a class="gallery-link" href="/images/a14.jpeg">
+        <figure class="gallery-image">
+          <img height="1600" src="/images/a14.jpeg" width="1000" />
+          <figcaption>Photo caption</figcaption>
+        </figure>
+      </a>
+      <a class="gallery-link" href="/images/a15.jpeg">
+        <figure class="gallery-image">
+          <img height="1000" src="/images/a15.jpeg" width="1400" />
+          <figcaption>Photo caption</figcaption>
+        </figure>
+      </a>
+      <a class="gallery-link" href="/images/a16.jpeg">
+        <figure class="gallery-image">
+          <img height="1400" src="/images/a16.jpeg" width="1400" />
+          <figcaption>Photo caption</figcaption>
+        </figure>
+      </a>
+      <a class="gallery-link" href="/images/a18.jpeg">
+        <figure class="gallery-image">
+          <img height="1600" src="/images/a18.jpeg" width="1400" />
+          <figcaption>Photo caption</figcaption>
+        </figure>
+      </a>
+      <a class="gallery-link" href="/images/a19.jpeg">
+        <figure class="gallery-image">
+          <img height="1400" src="/images/a19.jpeg" width="1600" />
+          <figcaption>Photo caption</figcaption>
+        </figure>
+      </a>
+      <a class="gallery-link" href="/images/a20.jpeg">
+        <figure class="gallery-image">
+          <img height="1400" src="/images/a20.jpeg" width="1600" />
+          <figcaption>Photo caption</figcaption>
+        </figure>
+      </a>
+    </article>
+
+    <div class="container">
+      <hr style="border: 1px solid black" />
+    </div>
+
+    <div class="container-fluid">
+      <div class="col">
+        <div class="row">
+          <div class="col-sm-4">
+            <a
+              href="https://instagram.com/ambika_aggarwal98?igshid=OGQ5ZDc2ODk2ZA=="
+              title="instagram"
+              style="color: black"
+            >
+              <ion-icon name="logo-instagram" class="instagram"></ion-icon
+            ></a>
+            <ion-icon
+              name="link-outline"
+              id="copyButton"
+              class="instagram mx-2"
+            ></ion-icon>
+          </div>
+          <div class="col-sm-4 text-center">
+            <p>Ambika Aggarwal</p>
+          </div>
+          <div class="col-sm-3"></div>
+          <div class="col-sm-1">
+            <p>2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      document
+        .getElementById("copyButton")
+        .addEventListener("click", function () {
+          // Get the current page's URL
+          var pageURL = window.location.href;
+
+          // Create a temporary input element to copy the URL to clipboard
+          var tempInput = document.createElement("input");
+          document.body.appendChild(tempInput);
+          tempInput.value = pageURL;
+          tempInput.select();
+          document.execCommand("copy");
+          document.body.removeChild(tempInput);
+
+          alert("Page URL copied to clipboard: " + pageURL);
+        });
+    </script>
+
+    <script>
+      (function () {
+        $(".gallery-link").magnificPopup({
+          type: "image",
+          closeOnContentClick: true,
+          closeBtnInside: false,
+          mainClass: "mfp-with-zoom mfp-img-mobile",
+          image: {
+            verticalFit: true,
+            titleSrc: function (item) {
+              return item.el.find("figcaption").text() || item.el.attr("title");
+            },
+          },
+          zoom: {
+            enabled: true,
+          },
+          // duration: 300
+          gallery: {
+            enabled: true,
+            navigateByImgClick: false,
+            tCounter: "",
+          },
+          disableOn: function () {
+            return $(window).width() > 640;
+          },
+        });
+      }).call(this);
+
+      //# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiPGFub255bW91cz4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFBQSxDQUFBLENBQUUsZUFBRixDQUFrQixDQUFDLGFBQW5CLENBQ0U7SUFBQSxJQUFBLEVBQU0sT0FBTjtJQUNBLG1CQUFBLEVBQXFCLElBRHJCO0lBRUEsY0FBQSxFQUFnQixLQUZoQjtJQUdBLFNBQUEsRUFBVyw4QkFIWDtJQUlBLEtBQUEsRUFDRTtNQUFBLFdBQUEsRUFBYSxJQUFiO01BQ0EsUUFBQSxFQUFVLFFBQUEsQ0FBQyxJQUFELENBQUE7ZUFDUixJQUFJLENBQUMsRUFBRSxDQUFDLElBQVIsQ0FBYSxZQUFiLENBQTBCLENBQUMsSUFBM0IsQ0FBQSxDQUFBLElBQXFDLElBQUksQ0FBQyxFQUFFLENBQUMsSUFBUixDQUFhLE9BQWI7TUFEN0I7SUFEVixDQUxGO0lBUUEsSUFBQSxFQUNFO01BQUEsT0FBQSxFQUFTO0lBQVQsQ0FURjs7SUFXQSxPQUFBLEVBQ0U7TUFBQSxPQUFBLEVBQVMsSUFBVDtNQUNBLGtCQUFBLEVBQW9CLEtBRHBCO01BRUEsUUFBQSxFQUFVO0lBRlYsQ0FaRjtJQWVBLFNBQUEsRUFBVyxRQUFBLENBQUEsQ0FBQTthQUNULENBQUEsQ0FBRSxNQUFGLENBQVMsQ0FBQyxLQUFWLENBQUEsQ0FBQSxHQUFvQjtJQURYO0VBZlgsQ0FERjtBQUFBIiwic291cmNlc0NvbnRlbnQiOlsiJCgnLmdhbGxlcnktbGluaycpLm1hZ25pZmljUG9wdXBcbiAgdHlwZTogJ2ltYWdlJ1xuICBjbG9zZU9uQ29udGVudENsaWNrOiB0cnVlXG4gIGNsb3NlQnRuSW5zaWRlOiBmYWxzZVxuICBtYWluQ2xhc3M6ICdtZnAtd2l0aC16b29tIG1mcC1pbWctbW9iaWxlJ1xuICBpbWFnZTogXG4gICAgdmVydGljYWxGaXQ6IHRydWVcbiAgICB0aXRsZVNyYzogKGl0ZW0pIC0+XG4gICAgICBpdGVtLmVsLmZpbmQoJ2ZpZ2NhcHRpb24nKS50ZXh0KCkgfHwgaXRlbS5lbC5hdHRyKCd0aXRsZScpXG4gIHpvb206XG4gICAgZW5hYmxlZDogdHJ1ZVxuICAgICMgZHVyYXRpb246IDMwMFxuICBnYWxsZXJ5OlxuICAgIGVuYWJsZWQ6IHRydWVcbiAgICBuYXZpZ2F0ZUJ5SW1nQ2xpY2s6IGZhbHNlXG4gICAgdENvdW50ZXI6ICcnXG4gIGRpc2FibGVPbjogLT5cbiAgICAkKHdpbmRvdykud2lkdGgoKSA+IDY0MCAiXX0=
+      //# sourceURL=coffeescript
+    </script>
+    <script>
+      gsap.registerPlugin(ScrollTrigger);
+
+      const images = gsap.utils.toArray("img");
+      const loader = document.querySelector(".loader--text");
+      const updateProgress = (instance) =>
+        (loader.textContent = `${Math.round(
+          (instance.progressedCount * 100) / images.length
+        )}%`);
+
+      const showDemo = () => {
+        document.body.style.overflow = "auto";
+        document.scrollingElement.scrollTo(0, 0);
+        gsap.to(document.querySelector(".loader"), { autoAlpha: 0 });
+
+        gsap.utils.toArray("section").forEach((section, index) => {
+          const w = section.querySelector(".wrapper");
+          const [x, xEnd] =
+            index % 2
+              ? ["100%", (w.scrollWidth - section.offsetWidth) * -1]
+              : [w.scrollWidth * -1, 0];
+          gsap.fromTo(
+            w,
+            { x },
+            {
+              x: xEnd,
+              scrollTrigger: {
+                trigger: section,
+                scrub: 0.5,
+              },
+            }
+          );
+        });
+      };
+
+      imagesLoaded(images)
+        .on("progress", updateProgress)
+        .on("always", showDemo);
+    </script>
+  </body>
+</html>
